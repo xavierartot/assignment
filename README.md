@@ -57,7 +57,7 @@ the main files are:
 | :--------------------- |:-------------------------------------------|--------------------------|
 | src/babel/script.js    | you add the Javascript here                | **folder** index.html/   |
 | src/jade/index.jade    | you add the html here                      | **folder** index.html/   |
-| src/stylus/style.styl  | the name for the SASS file (for the CSS)   | **folder** index.html/   |
+| src/stylus/style.styl  | the name for the Stylus file (for the CSS) | **folder** index.html/   |
 
 ---
 ##How I Am Using This Workflow With FCC
