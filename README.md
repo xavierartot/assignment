@@ -38,7 +38,7 @@ Work faster with an environment for web developer
 
 the main files are:
 
-| Files                  | Are                                        | destination
+| Files                  | Files Types                                | destination
 | :--------------------- |:-------------------------------------------|:--------------------------|
 | src/babel/script.js    | Javascript                                 | **folder** index.html/    |
 | src/jade/index.jade    | html                                       | **folder** index.html/    |
