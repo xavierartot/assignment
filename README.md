@@ -39,10 +39,10 @@ Work faster with an environment for web developer
 the main files are:
 
 | Files                  | Are                                        | destination
-| :--------------------- |:-------------------------------------------|--------------------------|
-| src/babel/script.js    | you add the Javascript here                | **folder** index.html/   |
-| src/jade/index.jade    | you add the html here                      | **folder** index.html/   |
-| src/stylus/style.styl  | the name for the Stylus file (for the CSS) | **folder** index.html/   |
+| :--------------------- |:-------------------------------------------|:--------------------------|
+| src/babel/script.js    | Javascript                                 | **folder** index.html/    |
+| src/jade/index.jade    | html                                       | **folder** index.html/    |
+| src/stylus/style.styl  | Stylus(CSS)                                | **folder** index.html/    |
 
 ---
 ##How I Am Using This Workflow With FCC
