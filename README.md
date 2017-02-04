@@ -1,18 +1,3 @@
-init: 
-- the checkbox by default is unchecked
-- the sound associate to the color are the same  = dataGame
-
-if checkbox === true
-  - Ai choose a random color and play a sound
-  - save the choice in an array
-  - the player have to choice the same choice and color than the AI
-  - display the total length array in count element
-  - if the choice are wrong repeat the last array with sound 
-  and color every second after 2 seconds
-else 
-  - stop the game and  init the array to undefined and null
-
-
 # Free Code Camp Lab
 Work faster with an environment for web developer
 
