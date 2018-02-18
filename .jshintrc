@@ -1,1 +1,14 @@
-{"esnext":true}
+{
+  "esnext":true
+  "parser": 'babel-eslint',
+  "parserOptions": {
+    "allowImportExportEverywhere": false,
+  },
+  "extends": [
+  "airbnb",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "indent-size": [true, 2]
+  }
+}

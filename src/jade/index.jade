@@ -9,15 +9,31 @@ html(lang='en')
   head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    +style('https://fonts.googleapis.com/css?family=Roboto:100')
+    +style('https://fonts.googleapis.com/css?family=Roboto:300,400,500')
     +style('style.css') 
-    title FFC - Simon Game
+    title 
   body
     div.container
-      h1 Free code Camp - Simon Game
-
+      h1.title Responsive Module
+      div.modules
+        div.modules__child.module__child-red
+          h2 first module
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+          button.btn.btn-first first
+        div.modules__child.module__child-green
+          h2 second module
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+          button.btn.btn-second second
+        div.modules__child.module__child-blue
+          h2 third module
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+          button.btn.btn-third third 
+        div.modules__child.module__child-white
+          h2 four module
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+          button.btn.btn-four four
     footer
-      div.thx Thanks for watching.
+      div.thx Thanks for watching!
 
     +script('script.js')
 
