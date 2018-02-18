@@ -12,16 +12,15 @@ module.exports = {
       2, 2
     ],
     'linebreak-style': [
-      'error',
-      'unix'
+      0, 'unix'
     ],
     'quotes': [
-      'error',
-      'single'
+      0, 'single'
     ],
     'semi': [
-      'error',
-      'never'
-    ]
+      0,'never'
+    ],
+    'no-unused-vars': 1,
+    'no-console': 0
   }
 }

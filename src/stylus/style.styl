@@ -2,8 +2,8 @@
 $white    = #fafafa
 $red      = #a3323b
 $green    = #3e9146
-$bgc-blue = #272c51
 $blue     = #525fd6
+$bgc-blue = #272c51
 $black    = #000
 $gold = #bfaf74 //color wheel with #272c51
 
@@ -131,15 +131,14 @@ h1,h2
       outline: 0;
       text-decoration: none;
     &:hover
-      background-color: #656ead;
-      border: 1px solid transparent;
-      //btn($gold, $bgc-blue, $bgc-blue)
+      background-color: $gold;
+      border: 1px solid $gold;
   .btn-first
-    btn($bgc-blue, $gold, $bgc-blue)
+    btn($white, $red, $white)
   .btn-second
-    btn($bgc-blue, $gold, $bgc-blue)
+    btn($white, $green, $white)
   .btn-third
-    btn($bgc-blue, $gold, $bgc-blue)
+    btn($white, $blue, $white)
   .btn-four
     btn($bgc-blue, $gold, $bgc-blue)
 
