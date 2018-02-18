@@ -7,6 +7,9 @@ const color = [
 ]
 
 const moduleSchwab = ( () => {
+  function changeColorBtn(e) {
+    return [...document.querySelectorAll('.btn-change')].map( ele => ele.style.backgroundColor = e )
+  }
   const threeModules = () => {
     return [...document.querySelectorAll('.btn-change')]
       .map( (element,i) => {
@@ -14,9 +17,6 @@ const moduleSchwab = ( () => {
           return changeColorBtn(color[i])
         }, false )
       })
-    function changeColorBtn(e) {
-      return [...document.querySelectorAll('.btn-change')].map( ele => ele.style.backgroundColor = e )
-    }
   }
   const whiteModule = () => {
     const whiteBtn = document.querySelector('.btn-white')

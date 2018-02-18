@@ -18,7 +18,7 @@ module.exports = {
       0, 'single'
     ],
     'semi': [
-      0,'never'
+      1,'never'
     ],
     'no-unused-vars': 1,
     'no-console': 0
