@@ -1,154 +1,154 @@
-// variables bases: https//coolors.co/ffea77-a3323b-353c44-3e9146-272c51L
+// variables bases https//coolors.co/ffea77-a3323b-353c44-3e9146-272c51L
 $white    = #fafafa
 $red      = #a3323b
+$redBx    = #8a252d
 $green    = #3e9146
+$greenBx  = #306b36
 $blue     = #525fd6
-$bgc-blue = #272c51
+$blueBx   = #424a94
+$bgc-blue = #c5e9f5
+$body-bg  = #e0fcff
 $black    = #000
-$gold = #bfaf74 //color wheel with #272c51
-
-// javascript helper
-.alert
-  color #f00 !important 
-  background-color $gray-blue !important 
-  border 1px solid $red !important
-.hide
-  display none !important
-.show
-  display block !important
+$gold     = #bfaf74 //color wheel with #272c51
 
 // mixins
 btn(btn-color, btn-bgccolor, btn-border-color)
   color btn-color
   background-color btn-bgccolor
   border 1px solid btn-border-color
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.25;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: .5rem 1rem;
-  font-size: 1rem;
-  border-radius: .25rem;
-  -webkit-transition: background .4s ease-in-out;
-  -o-transition: background .4s ease-in-out;
-  transition: background .4s ease-in-out;
-  touch-action: manipulation;
-  text-transform: none;
-  overflow: visible;
-  margin-top: 1rem
-  cursor: pointer
+  display inline-block
+  font-weight 400
+  line-height 1.25
+  text-align center
+  white-space nowrap
+  vertical-align middle
+  -webkit-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+  padding .5rem 1rem
+  font-size 1rem
+  border-radius .25rem
+  -webkit-transition background .4s ease-in-out
+  -o-transition background .4s ease-in-out
+  transition background .4s ease-in-out
+  touch-action manipulation
+  text-transform none
+  overflow visible
+  cursor pointer
+
 //document
 body
-  box-sizing: border-box;
-  display: block
-  padding: 0;
-  margin: 1rem;
-  background-color $black
+  box-sizing border-box
+  display block
+  padding 0
+  margin 1rem
+  background-color $body-bg
   color #ececec
   font-family 'Roboto', sans-serif
   font-size 16px
-  font-weight: 400
-  line-height: 24px
+  font-weight 400
+  line-height 24px
   display flex
-  justify-content: center
-  flex-direction: column
-  align-items: center
-
+  justify-content center
+  flex-direction column
+  align-items center
+button:focus 
+  outline 0
 .container
-  width: 100%
+  width 100%
   background-color $bgc-blue 
+  min-height 15em
+  display flex
+  justify-content center
+  align-items center
+  @media screen and (min-width 980px)
+    width 980px
 
 h1,h2
   text-align center
   font-size 1.4em
   font-weight 300
-  color: $gold;
+  color $gold
   border 1px solid
-  padding: 1em 0 
+  padding 1em 0 
 .title //h1
-  @media screen and (min-width: 380px)
+  @media screen and (min-width 380px)
     max-width 230px
-    margin: auto;
-    margin-top: 2rem;
-  @media screen and (min-width: 600px)
+    margin auto
+    margin-top 2rem
+  @media screen and (min-width 600px)
     max-width 380px
     font-size 2rem
-    margin-bottom: 2rem
-  @media screen and (min-width: 1180px)
+    margin-bottom 2rem
+  @media screen and (min-width 1180px)
     font-size 3rem
     max-width 480px
 
 .modules
-  margin: 1rem;
-  display: flex;
-  justify-content: center
-  flex-direction: column
-  align-items: center;
-  @media screen and (min-width: 600px)
-    flex-direction: row
-    align-items: baseline;
-    justify-content: space-around;
+  display flex
+  justify-content center
+  flex-direction column
+  align-items center
+  width 100% 
+  @media screen and (min-width 600px)
+    flex-direction row
+    align-items baseline
+    justify-content center
   .modules__child
-    display: flex;
-    flex-direction: column;
-    width: 80%
-    max-width: 230px;
-    margin: 0 1rem 1rem 1rem;
-    padding: 1rem
-    text-transform: capitalize
-    @media screen and (min-width: 880px)
-      //text-transform: uppercase
+    display flex
+    flex-direction column
+    width 100%
+    max-width 230px
+    margin 0
+    padding 1rem 0
+    text-transform capitalize
   .module__child-red
-    background-color: $red 
+    background-color $red 
   .module__child-green
-    background-color: $green 
+    background-color $green 
   .module__child-blue
-    background-color: $blue
+    background-color $blue
   .module__child-white
-    background-color: $white
+    background-color $white
     color $black 
   h2
-    margin-top: 0
+    margin-top 0
     font-size 1.2rem
-    margin-bottom: 1rem
-    @media screen and (min-width: 380px)
+    margin-bottom 1rem
+    @media screen and (min-width 380px)
       font-size 1.6rem
-    @media screen and (min-width: 600px)
+    @media screen and (min-width 600px)
       font-size 1.2rem
-    @media screen and (min-width: 1100px)
+    @media screen and (min-width 1100px)
       font-size 1.4rem
-    @media screen and (min-width: 1300px)
+    @media screen and (min-width 1300px)
       font-size 1.8rem
   .btn
-    &:focus
-      box-shadow: 0;
-      outline: 0;
-      text-decoration: none;
-    &:hover
-      background-color: $gold;
-      border: 1px solid $gold;
-  .btn-first
-    btn($white, $red, $white)
-  .btn-second
-    btn($white, $green, $white)
-  .btn-third
-    btn($white, $blue, $white)
-  .btn-four
-    btn($bgc-blue, $gold, $bgc-blue)
+    margin 0 2rem
+    &focus
+      box-shadow 0
+      text-decoration none
+    &hover
+      background-color $gold
+      border 1px solid $gold
 
-footer
-  background-color $bgc-blue  
-  color: $gold;
-  width: 100%
-  text-align: center
-  margin-top 2em
-  padding: 1em
-  font-size 1.2em
-  font-weight 300
+  .btn-first
+    btn($white, $redBx, transparent)
+  .btn-second
+    btn($white, $greenBx, transparent)
+  .btn-third
+    btn($white, $blueBx, transparent)
+  .btn-four
+    btn($white, $gold, transparent )
+
+//footer
+  //background-color $bgc-blue  
+  //color $gold
+  //width 100%
+  //text-align center
+  //margin-top 2em
+  //padding 1em
+  //font-size 1.2em
+  //font-weight 300
 
