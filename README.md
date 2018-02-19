@@ -10,4 +10,4 @@
 - close this repository
 - in the Terminal, then
 
-`$ npm i && gulp && gulp watch in Terminal.`
+`$ npm i && gulp && gulp watch`
