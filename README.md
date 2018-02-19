@@ -8,5 +8,6 @@
 
 ## Install
 - close this repository
-- in the Terminal:
+- in the Terminal, then
+
 `$ npm i && gulp && gulp watch in Terminal.`
