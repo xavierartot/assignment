@@ -6,3 +6,7 @@
 - Each box contains a button, and when clicked changes the color of the other buttons to its color, except for the white box. 
 - The white box always remains white and when its button is clicked, it resets the colors of the other boxes to their original colors.
 
+## Install
+- close this repository
+- in the Terminal:
+`$ npm i && gulp && gulp watch in Terminal.`
