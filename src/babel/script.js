@@ -1,11 +1,9 @@
-//https://toddmotto.com/mastering-the-module-pattern/#revealing-module-pattern
 //design pattern: module pattern
 const color = [
   '#8a252d',
   '#306b36',
   '#424a94',
 ]
-
 const moduleSchwab = ( () => {
   function changeColorBtn(e) {
     return [...document.querySelectorAll('.btn-change')].map( ele => ele.style.backgroundColor = e )
@@ -24,12 +22,10 @@ const moduleSchwab = ( () => {
       return [...document.querySelectorAll('.btn-change')].map( ele => ele.removeAttribute('style') )
     })
   }
-  const main  = () => {
+  const main = () => {
     threeModules()
     whiteModule() 
   }
-  return {
-    main
-  }
+  return {main}
 })()
 moduleSchwab.main()
