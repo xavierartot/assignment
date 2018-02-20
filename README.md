@@ -8,7 +8,7 @@
 
 
 ### Tools Used
-- I used different technologies 
+I used different technologies 
   * CSS 
     - Stylus   (preprocessor)
     - BEM      (methodology)
