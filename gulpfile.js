@@ -59,5 +59,4 @@ gulp.task('watch', ['browser-sync'], () => {
   gulp.watch('src/jade/*.jade', ['jade'])
   gulp.watch('src/babel/*.js', ['babel'])
   gulp.watch('src/stylus/*.styl', ['stylus'])
-  gulp.watch('src/stylus/*.styl', ['stylus'])
 })

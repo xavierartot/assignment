@@ -9,12 +9,16 @@
 
 ### Tools Used
 - I used different technologies 
-  * Stylus (preprocessor)
-  * Babel  (transpiler)
-  * Pug    (templating HTML)
-  * Git    (versioning)
-  * Eslint (lint code)
-  * Vim    (code editor)
+  * CSS 
+    - Stylus   (preprocessor)
+    - BEM      (methodology)
+  * Javascript
+    - Babel    (transpiler)
+    - Version  (es2015)
+  * Pug        (templating HTML, known as Jade)
+  * Git        (versioning)
+  * Eslint     (lint code)
+  * Vim        (code editor)
 
 ### Instruction
 #### Build a responsive module on a webpage containing:
