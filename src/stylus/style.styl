@@ -8,7 +8,7 @@ $blue     = #525fd6
 $blueBx   = #424a94
 $bgc-blue = #c5e9f5
 $body-bg  = #e0fcff
-$black    = #000
+$black    = #000000
 $gold     = #bfaf74 //color wheel with #272c51
 
 // mixins
@@ -29,14 +29,15 @@ btn(btn-color, btn-bgccolor, btn-border-color)
   padding .5rem 1rem
   font-size 1rem
   border-radius .25rem
-  -webkit-transition background .4s ease-in-out
-  -o-transition background .4s ease-in-out
   transition background .4s ease-in-out
   touch-action manipulation
   text-transform none
   overflow visible
   cursor pointer
-
+//reset
+ul
+  margin 0
+  padding 0
 //document
 body
   box-sizing border-box
@@ -53,11 +54,11 @@ body
   justify-content center
   flex-direction column
   align-items center
-button:focus 
+button:focus
   outline 0
 .container
   width 100%
-  background-color $bgc-blue 
+  background-color $bgc-blue
   min-height 15em
   display flex
   justify-content center
@@ -104,14 +105,14 @@ h1,h2
     padding 1rem 0
     text-transform capitalize
   .module__child-red
-    background-color $red 
+    background-color $red
   .module__child-green
-    background-color $green 
+    background-color $green
   .module__child-blue
     background-color $blue
   .module__child-white
     background-color $white
-    color $black 
+    color $black
   h2
     margin-top 0
     font-size 1.2rem
@@ -140,10 +141,10 @@ h1,h2
   .btn-third
     btn($white, $blueBx, transparent)
   .btn-four
-    btn($white, $gold, transparent )
+    btn($white, $gold, transparent)
 
 //footer
-  //background-color $bgc-blue  
+  //background-color $bgc-blue
   //color $gold
   //width 100%
   //text-align center
@@ -151,4 +152,3 @@ h1,h2
   //padding 1em
   //font-size 1.2em
   //font-weight 300
-

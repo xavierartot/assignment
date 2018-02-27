@@ -24,7 +24,7 @@ const moduleSchwab = ( () => {
   }
   const main = () => {
     threeModules()
-    whiteModule() 
+    whiteModule()
   }
   return {main}
 })()
