@@ -1,6 +1,7 @@
 # Schwab assignment 
 
-## link: http://artot.net/assignments/charles-schwab/index.html/
+## final project
+[http://artot.net/assignments/charles-schwab/index.html/](http://artot.net/assignments/charles-schwab/index.html/)
 
 ## Install and Work
 - close this repository
