@@ -27,7 +27,7 @@ I used different technologies
 - Each box contains a button, and when clicked changes the color of the other buttons to its color, except for the white box. 
 - The white box always remains white and when its button is clicked, it resets the colors of the other boxes to their original colors.
 
-#### problem statement
+### Assignment
 
 The manager at Schwab would like you to complete the following. You will need to send me a compressed folder once completeLet me know if you have any questions.
 
@@ -35,14 +35,17 @@ Programming problem for Xavier.
 
 Build a responsive module on a webpage containing 4 square boxes with colors: red, green, blue, white. Each box has a maximum width of 230px, and the webpage has a maximum width of 980px. Each box contains a button, and when clicked changes the color of the other buttons to its color, except for the white box. The white box always remains white and when its button is clicked, it resets the colors of the other boxes to their original colors.
 
-#### correction 
-The manager think I don't fit the requirement for the front end developer job, mostly because the sementic HTML and
-some others consideration.
-They want to see others candidates more qualify.
-- a name of my functions was wrong in Javascript: **threeModules()** I update to **changeThreeModules()**
-- the list was wrap in div, I replaced the div by a list **ul>li**
-- I add a footer and an icon mostly for fun 😜
-- I didn't really know why I have in script element, it's mostly avoid
-  text/javascript, text it's for human and application for no human, I didn't
-know the relation with doctype html 5 
- <script type="application/javascript" src="script.js"></script>   
+### Correction 🔥
+The manager had suggestions for my code, mostly for these reasons.
+- a name of my functions was wrong in Javascript: **threeModules()** I updated to **changeThreeModules()** because a name need to be clear at the first glance
+- the list was wrapped in div, I replaced the div by a list **ul>li**
+- I added a footer and an icon mostly for fun 😜
+- I completely forgot the relation and the type="...", I was using the doctype html5 and always assume it was type="application/javascript" I knew the type="text/javascript" was obsolete in modern browser(text seems to be read by human), once on my computer I realize my mistake. 
+- The **box-sizing: content-box** wasn't clear at the moment, I was confuse with margin and
+  padding with border, maybe the stress, basically I reversed the answer ☹️
+- I didn't aggree, with this critic: 
+  1. - the container with a width:100% is unnecassary and a mistake: 
+  2. false statement because this style property is necessary to fill the screen in mobile and it
+     helps to have a better design experience
+
+#### I learned a lot of things and therefore it was a rewarding experience
