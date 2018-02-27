@@ -44,7 +44,7 @@ I renamed some for more visibility: **threeModules()** to **changeThreeModules()
 it and I was right.
   3. the syntaxe in BEM is **class='modules__child module__child-green'** 
      I understand other practice exist and the manager don't like
-      the methodology BEM. However I choose it because is the most popular.
+      the BEM methodology. However I choose this one only because it's the most popular one.
       Nothing wrong with my code here the documentation
       https://en.bem.info/methodology/html/
   4. the display: flex; on the element body, is necessary to have control on the
