@@ -38,14 +38,15 @@ Build a responsive module on a webpage containing 4 square boxes with colors: re
 ### Correction 🔥
 The manager had suggestions for my code.
 - a name of my functions was wrong in Javascript: **threeModules()** I updated to **changeThreeModules()** because a name need to be clear at the first glance
-- the list was wrapped in div, I replaced the div by a list **ul>li**
-- I added a footer and an icon mostly for fun 😜
-- I completely forgot the relation and the type="...", I was using the doctype html5 and always assume it was type="application/javascript" I knew the type="text/javascript" was obsolete in modern browser(text seems to be read by human), once on my computer I realize my mistake. 
+- the list was wrapped in div, I replaced the div by a list **ul>li**, for
+ obviously semantic reason 
+- I completely forgot the relation between Doctype and the type="...", I was using the doctype html5 and always assume it was type="application/javascript" I knew the type="text/javascript" was obsolete in modern browser(text seems to be read by human), once on my computer I realize my mistake. 
 - The **box-sizing: content-box** wasn't clear at the moment, I was confuse with margin and
   padding with border, maybe the stress, basically I reversed the answer ☹️
 - I didn't aggree, with this critic: 
   1. - the container with a width:100% is unnecassary and a mistake: 
   2. false statement because this style property is necessary to fill the screen in mobile and it
      helps to have a better design experience
+- I added a footer and an icon mostly for fun 😜
 
 #### I learned a lot of things and therefore it was a rewarding experience
