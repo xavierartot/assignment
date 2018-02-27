@@ -42,10 +42,10 @@ I renamed some for more visibility: **threeModules()** to **changeThreeModules()
   false statement because this style property is necessary to fill the screen in mobile and it
      helps to have a better design experience, once back to home I experienced
 it and I was right
-  3. the syntaxe in BEM is **class='modules__child module__child-green'** it's in the
-     documentation, I understand other practice exist and the manager don't like
-      this methodology but BEM is the most popular one. 
-      Nothing wrong with my code.
+  3. the syntaxe in BEM is **class='modules__child module__child-green'** 
+     I understand other practice exist and the manager don't like
+      the methodology BEM. However I choose it because is the most popular.
+      Nothing wrong with my code here the documentation
       https://en.bem.info/methodology/html/
   4. the display: flex; on the element body, is necessary to have control on the
      children nodes, and especially because I want to have a full screen out of
