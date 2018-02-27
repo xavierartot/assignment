@@ -16,15 +16,15 @@ const moduleSchwab = ( () => {
         }, false )
       })
   }
-  const whiteModule = () => {
-    const whiteBtn = document.querySelector('.btn-white')
+  const resetWhiteButton = () => {
+    const whiteBtn = document.querySelector('.btn-reset')
     whiteBtn.addEventListener( 'click', function () {
       return [...document.querySelectorAll('.btn-change')].map( ele => ele.removeAttribute('style') )
     })
   }
   const main = () => {
     changeThreeModules()
-    whiteModule()
+    resetWhiteButton()
   }
   return {main}
 })()
