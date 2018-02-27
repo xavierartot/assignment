@@ -40,7 +40,7 @@ Build a responsive module on a webpage containing 4 square boxes with colors: re
 
 ### Correction 🔥
 The manager had suggestions for my code.
-- Some names of my functions was difficult to read. I renamed them for more visibility: **threeModules()** to **changeThreeModules()**,  **whiteModule** to **resetWhiteButton** and **btn-white** to **btn-reset** 
+- Some names of my functions was difficult to read. I renamed them for more visibility: **threeModules()** to **changeThreeModules()**,  **whiteModule** to **resetWhiteButton** and the class html **.btn-white** to **.btn-reset** 
 - the list was wrapped in div, I replaced the div by a list **ul>li**, for semantic reason 
 - I completely forgot the relation between Doctype and the type="...", I was using the doctype html5 and always assume it was type="application/javascript" I knew the type="text/javascript" was obsolete in modern browser(text seems to be read by human), once on my computer I realize my mistake. 
 - The **box-sizing: content-box** wasn't clear at the moment, I was confuse with margin and
