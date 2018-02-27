@@ -38,10 +38,10 @@ I renamed some for more visibility: **threeModules()** to **changeThreeModules()
 - The **box-sizing: content-box** wasn't clear at the moment, I was confuse with margin and
   padding with border, maybe the stress, basically I reversed the answer
 - I didn't aggree but I understood these critics:
-  1. the container with a width:100% is unnecassary and a mistake: 
-  false statement because this style property is necessary to fill the screen in mobile and it
+  1. the container with a width:100% is unnecessary and it's a mistake: 
+  false statement in my context, because this style property is necessary to fill the screen in mobile and it
      helps to have a better design experience, once back to home I experienced
-it and I was right
+it and I was right.
   3. the syntaxe in BEM is **class='modules__child module__child-green'** 
      I understand other practice exist and the manager don't like
       the methodology BEM. However I choose it because is the most popular.
