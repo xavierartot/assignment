@@ -14,7 +14,6 @@ html(lang='en')
     title Assignment Schwab
   body
     div.container
-      //-h1.title Responsive Module
       ul.modules
         li.modules__child.module__child-red
           button.btn.btn-first.btn-change 1
@@ -24,8 +23,11 @@ html(lang='en')
           button.btn.btn-third.btn-change 3 
         li.modules__child.module__child-white
           button.btn.btn-four.btn-white 4
-    //-footer
-      //-div.thx Thanks for watching!
+    footer
+      div.thx 
+        | Made with 
+        span(class='footer__heart' aria-label="heart icon") ♥️  
+        | by Xavier Artot
 
     +script('script.js')
 
