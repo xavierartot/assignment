@@ -1,5 +1,7 @@
 # Schwab assignment 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xavierartot/assignment.svg)](https://greenkeeper.io/)
+
 ## final project
 [http://artot.net/assignments/charles-schwab/index.html/](http://artot.net/assignments/charles-schwab/index.html/)
 
